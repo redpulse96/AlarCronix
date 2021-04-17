@@ -5,9 +5,6 @@ require('dotenv').config();
 const PORT = process.env.PORT || 8000;
 const HOST = process.env.HOST || 'localhost';
 
-// Database Connection
-require('./src/connecter');
-
 // Importing the express app
 const app = require('./app');
 
